@@ -9,6 +9,7 @@
 	textarea { background: #d6fffc; color: #000; border: 1px solid #000; width: 460px; height: 160px; resize: none; font-family: Helvetica, Arial, sans-serif; font-size: 14px;  margin: 12px; padding: 12px; }
 	input { background: #dad6ff; color: #000; border: 1px solid #000; width: auto; height: auto; margin: 12px; padding: 12px; }
 	.content { width: 500px; margin-left: auto; margin-right: auto; text-align: center; }
+	.remove { background: #fff; color: red; border: 1px solid #0000004d; resize: none;  margin: 6px; padding: 6px; display:inline-block; font-weight: bold; }
 	.result { background: #ffd6d6; color: #000; border: 1px solid #000; width: 460px; height: 160px; resize: none;  margin: 12px; padding: 12px; }
 	.html { background: #fff; color: #000; border: 1px solid #000; width: 460px; height: 160px; resize: none;  margin: 12px; padding: 12px; }
 </style>
@@ -24,6 +25,10 @@
 		<input type="submit" name="submit" value="გაგზავნა" \>
 
 		</form>
+
+		მხარდაჭერილი ტეგები:
+		<div class="remove">&lt;b&gt; &lt;a&gt; &lt;font&gt; &lt;div&gt; &lt;p&gt; &lt;hr&gt; &lt;i&gt; &lt;strong&gt; 
+		</div>
 
 		შედეგი:<br />
 		<div class="result">
