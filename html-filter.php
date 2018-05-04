@@ -32,8 +32,8 @@
 
 		if (isset($_POST['submit']) && isset($_POST['text'])) {
 			$text = $_POST['text'];
-			$text = str_ireplace("\r\n", "<br>", $text); 
 			$text = strip_tags($text, '<b><a><font><div><p><hr><i><strong>');
+			$text = str_ireplace("\r\n", "<br />", $text); 
 			echo $text;
 		}
 
@@ -47,7 +47,7 @@
 
 		if (isset($_POST['submit']) && isset($_POST['text'])) {
 			$text = $_POST['text'];
-			$text = str_ireplace("\r\n", "<br>", $text); 
+			$text = str_ireplace("\r\n", "<br />", $text); 
 			$text = htmlentities($text);
 			echo $text;
 		}
