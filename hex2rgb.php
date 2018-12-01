@@ -15,3 +15,6 @@ function hex2rgb($hex) {
 	$rgb = array($r, $g, $b);
 	return $rgb;
 }
+
+$rgb = hex2rgb("#cc000");
+print_r($rgb);
